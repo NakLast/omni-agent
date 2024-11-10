@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/omni-agent/static/css/main.cca3c149.css",
-    "main.js": "/omni-agent/static/js/main.586e8a71.js",
+    "main.js": "/omni-agent/static/js/main.9103b8e6.js",
     "static/js/453.81499f0a.chunk.js": "/omni-agent/static/js/453.81499f0a.chunk.js",
     "index.html": "/omni-agent/index.html",
     "main.cca3c149.css.map": "/omni-agent/static/css/main.cca3c149.css.map",
-    "main.586e8a71.js.map": "/omni-agent/static/js/main.586e8a71.js.map",
+    "main.9103b8e6.js.map": "/omni-agent/static/js/main.9103b8e6.js.map",
     "453.81499f0a.chunk.js.map": "/omni-agent/static/js/453.81499f0a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cca3c149.css",
-    "static/js/main.586e8a71.js"
+    "static/js/main.9103b8e6.js"
   ]
 }
