@@ -1,15 +1,15 @@
 import client, { setConfig } from "./client";
 import { ISendText } from "../interfaces/api";
 
-const API_URL = `${process.env.REACT_APP_API_URL}`;
-const API_URL_LOCAL = `${process.env.REACT_APP_API_URL_LOCAL}`;
+const API_URL = `${process.env.REACT_APP_LLM_HOST}`;
+const API_URL_LOCAL = `${process.env.REACT_APP_HOST}`;
 
 export const api = {
   sendText: async (requests: ISendText) => {
     setConfig({
       headers: {
         "Content-Type": "application/json",
-        Apikey: `${process.env.REACT_APP_API_KEY}`,
+        Apikey: `${process.env.REACT_APP_LLM_API_KEY}`,
       },
     });
 
@@ -19,7 +19,7 @@ export const api = {
   getVoice: async (url: string) => {
     setConfig({
       headers: {
-        Apikey: `${process.env.REACT_APP_API_KEY}`,
+        Apikey: `${process.env.REACT_APP_LLM_API_KEY}`,
       },
     });
 
@@ -29,7 +29,7 @@ export const api = {
   getBlendShapes: async (url: string) => {
     setConfig({
       headers: {
-        Apikey: `${process.env.REACT_APP_API_KEY}`,
+        Apikey: `${process.env.REACT_APP_LLM_API_KEY}`,
       },
     });
 
