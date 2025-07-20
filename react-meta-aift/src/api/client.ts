@@ -3,7 +3,7 @@ import axios from "axios";
 import { IBaseConfigType, IConfigType } from "../interfaces/client";
 
 const baseConfig: IBaseConfigType = {
-  baseURL: `${process.env.REACT_APP_API_URL}`,
+  baseURL: `${process.env.REACT_APP_HOST}`,
 };
 
 const client = axios.create(baseConfig);
